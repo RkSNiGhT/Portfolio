@@ -1,6 +1,49 @@
-body{
+body {
     background-color: rgb(48, 48, 48);
+    background-image: url(Backt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.nav-link:hover{
-    color: aqua;
+.nav-link{
+    color: white;
 }
+.nav-link:hover {
+    color: rgb(234, 0, 255);
+}
+.iconstyle{
+    filter: grayscale(100%);
+}
+.iconstyle:hover{
+    filter: grayscale(0%);
+}
+.containerimg {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .containerimg:hover .overlay {
+    opacity: 1;
+  }
