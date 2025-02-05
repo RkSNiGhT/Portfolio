@@ -91,6 +91,17 @@ body {
     display: flex;
     flex-direction: row;
 }
+.containersize{
+    width: 80%;
+}
+.bodymat{
+    background-color: rgb(48, 48, 48);
+    background-image: url(matwall.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
 
 
 
