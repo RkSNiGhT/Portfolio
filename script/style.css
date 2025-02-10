@@ -1,6 +1,6 @@
 body {
     background-color: rgb(48, 48, 48);
-    background-image: url(Backt.jpg);
+    background-image: linear-gradient(to bottom right, purple, blue);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,7 +9,7 @@ body {
     color: white;
 }
 .nav-link:hover {
-    color: rgb(234, 0, 255);
+    color: #ea00ff;
 }
 .iconstyle{
     filter: grayscale(100%);
@@ -95,12 +95,19 @@ body {
     width: 80%;
 }
 .bodymat{
-    background-color: rgb(48, 48, 48);
+    background-color: #303030;
     background-image: url(matwall.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
+}
+.textbg{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    
 }
 
 
